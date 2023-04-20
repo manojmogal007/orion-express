@@ -1,0 +1,26 @@
+.signup{
+    height: 100vh;
+    display: grid;
+    align-items: center;
+}
+.signup>div{
+    width: 25%;
+    margin: auto;
+    /* border: 1px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 30px 30px;
+    border-radius: 15px;
+}
+.signup>div>*{
+    margin-top: 20px;
+    width: 100%;
+}
+.signup>div>Button{
+    width: 50%;
+}
+
+@media screen and (max-width: 500px){
+    .signup>div{
+        width: 100%;
+    }
+}
